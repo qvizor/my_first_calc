@@ -10,6 +10,7 @@ for (var i = 0; i < 50; i++) {
         code += 'if (number1 === "' + i + '" && operation === "+" && number2 === "' + j + '") console.log("' + (i + j) + '");\n';
         code += 'if (number1 === "' + i + '" && operation === "-" && number2 === "' + j + '") console.log("' + (i - j) + '");\n';
         code += 'if (number1 === "' + i + '" && operation === "*" && number2 === "' + j + '") console.log("' + (i * j) + '");\n';
+        code += 'if (number1 === "' + i + '" && operation === "/" && number2 === "' + j + '") console.log("' + (i / j) + '");\n';
     }
 }
 
